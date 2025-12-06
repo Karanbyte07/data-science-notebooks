@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+.virtual_documents/
+__pycache__/
+*.pyc
+*.pyo
+*.csv
+*.tsv
+*.xlsx
+*.json
+.env/
+venv/
