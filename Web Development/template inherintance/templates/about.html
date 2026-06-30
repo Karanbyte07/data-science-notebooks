@@ -5,6 +5,19 @@
 {% block content %}
 <h2>This is the about page. where you can know more about this website</h2>
 <p>so this is our about page where we have used extend keyword and we can see that the navbar and footer is showing
-    in all the pages we create from the base template html file.
+    in all the pages we create from the base template html file.</p>
+
+<p>in this we learn about flash messages. when user visit this page he gets a flash message.</p>
+<h3>What is a Flash Message?</h3>
+<p>
+    A flash message is a temporary message stored in the user's session. It is used to provide feedback after an action,
+    appearing on the next page load and then disappearing automatically.
 </p>
+
+<h3>Steps to Use Flash Messages:</h3>
+<ol>
+    <li>Define a <code>secret_key</code> in your Flask application to enable session handling.</li>
+    <li>Import the <code>flash</code> function and call it inside your view function with the message.</li>
+    <li>Use <code>get_flashed_messages()</code> inside your HTML template to retrieve and display the messages.</li>
+</ol>
 {% endblock %}

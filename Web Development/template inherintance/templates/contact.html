@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}Contact Page{% endblock %}
+
+{% block content %}
+<h2>this is the contact page where we will learn about query(url) parameters</h2>
+<p>The url parameters are passed in the url itself when the user visits the page</p>
+<p>For example we can pass the name and language in the url itself when the user visits the page.</p>
+<p>the url looks like this: http://127.0.0.1:5000/contact?name=karan&language=python</p>
+<p>you can change into the url to change the output.</p>
+
+<h1>hello {{name}} and you are learning {{language}}</h1>
+{% endblock %}
